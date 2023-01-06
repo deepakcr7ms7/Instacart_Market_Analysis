@@ -1,16 +1,32 @@
 # Instacart Market Basket Analysis
 
+## TABLE OF CONTENTS
+
+* [Introduction](#introduction)
+* [Objective](#objective)
+* [Tools and Packages](#tools)
+* [Project Organization](#project-organization)
+* [Data Description](#data-description)
+* [Customer Segmentation](#customer-segmentation)
+* [Market Basket Analysis](#market-basket-analysis)
+* [Matrices](#matrices)
+* [ML Model to Predict Product Reorders](#ml-model-to-predict-product-reorders)
+* [ML Models](#ml-models)
+* [References](#references)
+* [Future Work](#future-work)
+
 ## Introduction
 
 Instacart is an American technology company that operates as a same-day grocery delivery and pick up service in the U.S. and Canada. Customers shop for groceries through the Instacart mobile app or Instacart.com from various retailer partners. The order is shopped and delivered by an Instacart personal shopper.
 
-### Objectives:
+### Objective:
 - Analyze the anonymized [data](https://www.kaggle.com/c/instacart-market-basket-analysis/data) of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart 
 - Find out hidden association between products for better cross-selling and upselling
 - Perform customer segmentation for targeted marketing and anticipate customer behavior
 - Build a Machine Learning model to predict which previously purchased product will be in user’s next order
 
 ### Project Organization
+
 ```
 .
 ├── Plots/                                      : Contains all plots 
@@ -159,7 +175,7 @@ The clustering results into 5 neat clusters and after checking most frequent pro
 - Cluster 4 results into 37949 consumers who have a very strong preference for fruits followed by fresh vegetables.
 - Cluster 5 results into 99100 consumers who orders products from many aisles. Their mean orders are low compared to other clusters which tells us that either they are not frequent users of Instacart or they are new users and do not have many orders yet. 
 
-## Markest Basket Analysis
+## Market Basket Analysis
 
 Market Basket Analysis is a modelling technique based upon the theory that if you buy a certain group of items, you are more or less likely to buy another group of items. Market basket analysis may provide the retailer with information to understand the purchase behavior of a buyer. This information can then be used for purposes of cross-selling and up-selling, in addition to influencing sales promotions, loyalty programs, store design, and discount plans.
 
